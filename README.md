@@ -1,7 +1,7 @@
 # Get an Idea
 
 ## Demo  
-🔗 View the app on Netlify (https://lily-find-recipe.netlify.app)
+🔗 View the app on Netlify (https://lily-get-idea.netlify.app)
 
 ## Project Description
 
