@@ -1,16 +1,36 @@
-# React + Vite
+# Get an Idea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo  
+🔗 View the app on Netlify (https://lily-find-recipe.netlify.app)
 
-Currently, two official plugins are available:
+## Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Get an Idea** is a small educational React application that helps users find ideas on what to do when they feel bored.
 
-## React Compiler
+The app is built using **React (Vite)**. By clicking a button, the user receives a random suggestion fetched from an external API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application uses the `useEffect` hook to retrieve data from the API.  
+It consists of two components:
+- A main component that contains the core logic and the button.
+- A second component that displays the suggestion text with animations created using **GSAP**.
 
-## Expanding the ESLint configuration
+No installation is required.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Here's what the app looks like:
+
+![App Screenshot](Captura.JPG)
+
+## How to Use:
+- Click the button to get a suggestion.
+- A new idea will be displayed each time you click the button.
+
+## Features:
+- Fetching random ideas from an external API using `useEffect`.
+- React component-based structure.
+- Text animation using GSAP.
+- Simple and user-friendly interface.
+
+## Requirements:
+- A modern web browser.
+- JavaScript enabled.
+
