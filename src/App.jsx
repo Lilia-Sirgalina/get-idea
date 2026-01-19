@@ -4,7 +4,7 @@ import ActivityText from "./ActivityText.jsx";
 
 
 export default function App() {
-  const [activity, setActivity] = useState("Click the button and get advice!");
+  const [activity, setActivity] = useState("");
 
   const getActivity = async () => {
     const response = await fetch("https://bored.api.lewagon.com/api/activity");
